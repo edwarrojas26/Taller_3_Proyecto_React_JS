@@ -11,14 +11,21 @@
   --Magenta: #9C2759;
   --blanco: #fff;
   --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0b3860 80.34%);
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> bda8885b1238d20de2c56d0fb8cc5860e0f3541a
 #contenopi
 {
       height: 26em;
 }
+<<<<<<< HEAD
 h1{
       font-size: 1.5em;
 }
+=======
+>>>>>>> bda8885b1238d20de2c56d0fb8cc5860e0f3541a
 .all {
     display: flex;
     justify-content: space-around;
@@ -26,9 +33,14 @@ h1{
     align-items: start;
     position: absolute;
     height: 27%;
+<<<<<<< HEAD
     margin-top: -13%;
     flex-direction: inherit;
     background-image: none;
+=======
+    margin-top: -2%;
+    flex-direction: inherit;
+>>>>>>> bda8885b1238d20de2c56d0fb8cc5860e0f3541a
 }
 .all img
 {
@@ -54,7 +66,11 @@ h1{
 
 .find {
       text-align: center;
+<<<<<<< HEAD
       font-size: 1.8rem;
+=======
+      font-size: 2.2rem;
+>>>>>>> bda8885b1238d20de2c56d0fb8cc5860e0f3541a
   }
 
 
@@ -64,6 +80,7 @@ h1{
       background-size: cover;
 }
 
+<<<<<<< HEAD
 .descripcion {
       display: flex;
       font-family: 'Marcellus', serif;
@@ -74,6 +91,10 @@ h1{
 
 .descripcion p{
 margin-left: 7%;
+=======
+.descripcion p{
+margin-left: 9%;
+>>>>>>> bda8885b1238d20de2c56d0fb8cc5860e0f3541a
     margin-bottom: 5%;
 }
 .nombre h5{
@@ -103,6 +124,7 @@ margin-left: 7%;
       background-size: cover;
 }
 
+<<<<<<< HEAD
 .descripcion1 {
       display: flex;
       font-family: 'Marcellus', serif;
@@ -112,6 +134,10 @@ margin-left: 7%;
   }
 .descripcion1 p{
 margin-left: 6%;
+=======
+.descripcion1 p{
+margin-left: 9%;
+>>>>>>> bda8885b1238d20de2c56d0fb8cc5860e0f3541a
     margin-bottom: 5%;
 }
 .nombre1 h5{
