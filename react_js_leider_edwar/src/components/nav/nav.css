@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0b3860 80.34%);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+    padding: 1rem;
+}.item button{
+    color: white;
+    font-size: 0.8em;
+   
+    background-color: #337AB7;
+    border: none;
+    padding: 0.5rem;
+}nav a{
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 1rem;
+    transition: .5s all ease;
+    
+}nav a:hover{
+    background-color:#0B3860;
+    width: 100%;
+}.logo{
+    width: 250px;
+}
+
+.logo img{
+    height: 3.6rem;  
+    width: 100%;   
+}
+
+.menu {
+    display: flex;
+}
