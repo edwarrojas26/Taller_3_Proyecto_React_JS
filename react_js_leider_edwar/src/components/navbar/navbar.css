@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --azulclaro: #48d6ed;
+  --azuloscuro: #337ab7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #b2b3b3;
+  --fondo: #fffefc;
+  --verdeazul: #157a8a;
+  --Magenta: #9c2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337ab7 2.89%, #0b3860 80.34%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url(./wallhaven-k9r8xm_1280x720.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+@media only screen and (min-width: 320px) {
+nav {
+    width: 30%;
+    color: var(--blanco);
+  }
+
+  nav .logo {
+    background-color: #0b3860;
+    background-image: url(./Group\ 200.svg);
+    background-size: 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 70%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+  }
+
+  .usuario {
+    display: none;
+  }
+
+  .menu {
+    background-color: var(--azulnegro);
+    height: 73%;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav .menu .item div {
+    padding: 10px;
+    font-size: 1.2em;
+  }
+
+  nav .menu .item div:hover {
+    background-color: var(--azuloscuro);
+  }
+
+  nav .menu .item .color {
+    background-color: var(--azuloscuro);
+  }
+
+  nav .menu .item div a {
+    display: none;
+  }
+
+  nav .exit {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--negro2);
+  }
+
+  nav .exit a {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    nav {
+      width: 17%;
+      color: var(--blanco);
+      position: fixed;
+      height: 500px;
+    }
+  
+    nav .logo {
+      background-color: #0b3860;
+      /*background-image: url(./Hotelia\ horizontal\ blanco.svg);*/
+      background-size: 100%;
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      padding: 0em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo img {
+      width: 70%;
+      padding-top: 10%;
+      padding-bottom: 20%;
+    }
+  
+    .usuario {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.8rem;
+      padding-bottom: 10%;
+    }
+  
+    .menu {
+      background-color: var(--azulnegro);
+      height: 73%;
+    }
+  
+    .item {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    nav .menu .item div {
+      display: flex;
+      flex-direction: row;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+  
+    nav .menu .item div:hover {
+      background-color: var(--azuloscuro);
+    }
+  
+    nav .menu .item .color {
+      background-color: var(--azuloscuro);
+    }
+  
+    nav .menu .item div a {
+      display: flex;
+      text-decoration: none;
+      color: var(--blanco);
+      padding-left: 1rem;
+    }
+  
+    nav .exit {
+      display: flex;
+      flex-direction: row;
+      padding: 1rem;
+      font-size: 1.5rem;
+      background-color: var(--azulnegro);
+    }
+  
+    nav .exit a {
+      display: flex;
+      text-decoration: none;
+      color: var(--blanco);
+      padding-left: 1rem;
+    }
+
+}
