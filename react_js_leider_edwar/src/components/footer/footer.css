@@ -1,18 +1,9 @@
 
 .pie-pagina
-{
-      background-color: var(--negro);
-      color: white;
-      padding: 2%;
+ { 
+    background-color: var(--negro); color: white; padding: 2%; margin-top: 23%; 
 }
-.pie-pagina .texto
-{
-      display: flex;
-      justify-content: space-around;
-      font-size: 1.2em;
-      align-items: baseline;
-      height: 9rem;
-}
+.pie-pagina .texto { display: flex; justify-content: space-around; font-size: 1.2em; align-items: baseline; height: 13rem; }
 .parrafo
 {
       width: 25%;

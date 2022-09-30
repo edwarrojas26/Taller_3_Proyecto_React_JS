@@ -48,4 +48,5 @@ nav{
 
 .menu {
     display: flex;
+    background-color: none;
 }

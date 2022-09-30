@@ -1,21 +1,14 @@
 import React from "react";
 import './opinions.css'
 
-<<<<<<< HEAD
-function Opiniones() { 
-=======
 function Opiniones() {
->>>>>>> bda8885b1238d20de2c56d0fb8cc5860e0f3541a
     return (
         <section id="contenopi">
             <div id="titulo"><h1>Nuestros usuarios dicen...</h1></div>
             <div className="all">
                 <div id="opinion" >
-<<<<<<< HEAD
                     <div className="nombre">
-=======
                     <div class="nombre">
->>>>>>> bda8885b1238d20de2c56d0fb8cc5860e0f3541a
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCfBdBWeo_usOiHgXZ2Ts7O4qPUfmQGntb6yR-OVklfZNQoeuOe9t1onhCz1KG5fOMVZI&usqp=CAU"/>
                             <h5>Diego rodriguez</h5>
                             <div className="stars">
@@ -30,6 +23,7 @@ function Opiniones() {
                         <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.
                             Elit quis enim ultricies ullamcorper.
                             Nunc aenean auctor vel diam dictum.</p>
+                    </div>
                     </div>
                 </div>
                 <div id="opinion1">
