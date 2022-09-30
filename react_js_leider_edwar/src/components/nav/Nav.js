@@ -11,10 +11,10 @@ function Nav() {
             <i className="fa-solid fa-bars hamb"></i>
         </div>
         <div className="menu">
-            <a href="#slider">Inicio</a>
-            <a href="#ubicacion">Ubícanos</a>
-            <a href="#contenopi">Opiniones</a>
-            <Link to="/" class="item"><button class="navbar-button"><i class="fa-solid fa-user"></i> Iniciar Sesión</button></Link>
+            <Link to="/">Inicio</Link>
+            <Link to="/">Ubícanos</Link>
+            <Link to="/">Opiniones</Link>
+            <Link to="/Register" class="item"><button class="navbar-button"><i class="fa-solid fa-user"></i> Iniciar Sesión</button></Link>
             
         </div>
     </nav>

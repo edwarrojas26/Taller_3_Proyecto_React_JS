@@ -1,6 +1,7 @@
 import React from "react";
 import './opinions.css'
 
+
 function Opiniones() {
     return (
         <section id="contenopi">
@@ -10,7 +11,7 @@ function Opiniones() {
                     <div className="nombre">
                     <div class="nombre">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCfBdBWeo_usOiHgXZ2Ts7O4qPUfmQGntb6yR-OVklfZNQoeuOe9t1onhCz1KG5fOMVZI&usqp=CAU"/>
-                            <h5>Diego rodriguez</h5>
+                            <h5>Diego Rodriguez</h5>
                             <div className="stars">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>

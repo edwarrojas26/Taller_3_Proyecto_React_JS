@@ -31,7 +31,7 @@ function Register() {
                     </div>
 
                     <div className="derecha">
-                        <p class="tipo">Apellidos</p>
+                        <p className="tipo">Apellidos</p>
                         <input name="Escoga" id="izquierda"/>
                     </div>
 
