@@ -1,10 +1,10 @@
 import imagen from "./foto.jpg";
 import "./foto.css";
-function Foto() {
+function Foto(props) {
   return (
     <div className="foto">
       <div className="img">
-        <img src={imagen} />
+        <img src={props.img} />
       </div>
       <div className="icon2">
         <i className="fa-solid fa-file-export"></i>
@@ -13,7 +13,7 @@ function Foto() {
         <i className="fa-solid fa-file-arrow-up"></i>
         <i className="fa-solid fa-upload"></i>
       </div>
-      <a href="#">Cambiar contraseña</a>
+      <a href="#">{props.titulo}</a>
     </div>
   );
 }
