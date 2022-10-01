@@ -1,0 +1,250 @@
+
+
+.body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(./wallhaven-nm9vkm_1280x720.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagen_blanca {
+  height: 150px;
+  overflow: hidden;
+  width: 400px;
+  height: 100px;
+  margin-top: -25px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 320px) {
+  .container-form {
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    width: 350px;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgba(51, 122, 183, 0.85);
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .container-form .svg {
+    width: 100%;
+  }
+
+  .image-co {
+    margin-top: -130px;
+    padding: 20px;
+    display: flex;
+    float: left;
+    margin-right: 50%;
+    width: 100px;
+  }
+
+  .iconss {
+    text-decoration: none;
+    font-size: 30px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background-color: var(--Magenta);
+    color: var(--blanco);
+    border-radius: 50%;
+  }
+
+  .input-user {
+    float: inline-start;
+    height: 30px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--blanco);
+    color: var(--blanco);
+  }
+
+  .container-form span {
+    width: 65%;
+    margin-top: 20px;
+  }
+
+  .button {
+    margin-top: 45px;
+    width: 65%;
+    height: 30px;
+    background-color: var(--negro2);
+    color: var(--blanco);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+  .button:hover {
+    margin-top: 45px;
+    width: 65%;
+    height: 30px;
+    background-color: var(--gris1);
+    color: var(--blanco);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button a:hover {
+    margin-top: 45px;
+    width: 65%;
+    height: 30px;
+    color: var(--blanco);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+  .container-form p {
+    color: var(--blanco);
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .container-form p a {
+    color: var(--negro2);
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .color-message {
+    color: var(--negro2);
+    text-decoration: none;
+  }
+
+  .a {
+    color: var(--blanco);
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-form {
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    width: 400px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 36%;
+    background-color: rgba(51, 122, 183, 0.85);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+  .container-form .svg {
+    width: auto;
+  }
+
+  .image-co {
+    margin-top: -130px;
+    padding: 20px;
+    display: flex;
+    float: left;
+    margin-right: 50%;
+    width: 200px;
+  }
+
+  .iconss {
+    text-decoration: none;
+    font-size: 30px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background-color: var(--Magenta);
+    color: var(--blanco);
+    border-radius: 50%;
+  }
+
+  .input-pass {
+    float: inline-start;
+    height: 30px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--blanco);
+    color: var(--blanco);
+  }
+
+  .container-form span {
+    width: 65%;
+    margin-top: 20px;
+  }
+
+  .button {
+    margin-top: 45px;
+    width: 65%;
+    height: 30px;
+    background-color: var(--negro2);
+    color: var(--blanco);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+
+  .button:hover {
+    margin-top: 45px;
+    width: 65%;
+    height: 30px;
+    background-color: var(--gris1);
+    color: var(--blanco);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button .a:hover {
+    margin-top: 45px;
+    width: 65%;
+    height: 30px;
+    color: var(--blanco);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+  }
+
+  .container-form p {
+    color: var(--blanco);
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .container-form p a {
+    color: var(--negro2);
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .color-message {
+    color: var(--negro2);
+    text-decoration: none;
+  }
+
+  .a {
+    color: var(--blanco);
+    text-decoration: none;
+  }
+}

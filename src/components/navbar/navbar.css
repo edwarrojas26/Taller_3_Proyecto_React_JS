@@ -1,0 +1,146 @@
+
+
+@media only screen and (min-width: 320px) {
+  .nav {
+    width: 30%;
+    color: var(--blanco);
+  }
+
+  .nav .logo {
+    background-color: #0b3860;
+    background-image: url(./Group_200_login.svg);
+    background-size: 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo .Imagen1 {
+    width: 70%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+  }
+
+  .usuario {
+    display: none;
+  }
+
+  .menu {
+    height: 73%;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav .menu .item div {
+    padding: 10px;
+    font-size: 1.2em;
+  }
+
+  .nav .menu .item div:hover {
+    background-color: var(--azuloscuro);
+  }
+
+  .nav .menu .item .color {
+    background-color: var(--azuloscuro);
+  }
+
+  .nav .menu .item div a {
+    display: none;
+  }
+
+  .nav .exit {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--negro2);
+  }
+
+  .nav .exit a {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    width: 17%;
+    color: var(--blanco);
+    position: fixed;
+    height: 500px;
+  }
+
+  .nav .logo {
+    background-color: #0b3860;
+    background-image: url(./Group_200_login.svg);
+    background-size: 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo .Imagen1 {
+    width: 70%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+  }
+
+  .usuario {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    padding-bottom: 10%;
+  }
+
+  .menu {
+    height: 73%;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav .menu .item div {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .nav .menu .item div:hover {
+    background-color: var(--azuloscuro);
+  }
+
+  .nav .menu .item .color {
+    background-color: var(--azuloscuro);
+  }
+
+  .nav .menu .item div a {
+    display: flex;
+    text-decoration: none;
+    color: var(--blanco);
+    padding-left: 1rem;
+  }
+
+  .nav .exit {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--azulnegro);
+  }
+
+  .nav .exit a {
+    display: flex;
+    text-decoration: none;
+    color: var(--blanco);
+    padding-left: 1rem;
+  }
+}

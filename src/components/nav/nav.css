@@ -1,0 +1,42 @@
+
+.nav-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+    padding: 1rem;
+}.item button{
+    color: white;
+    font-size: 0.8em;
+   
+    background-color: #337AB7;
+    border: none;
+    padding: 0.5rem;
+}.nav-main a{
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 1rem;
+    transition: .5s all ease;
+    
+}.nav-main a:hover{
+    background-color:#0B3860;
+    width: 100%;
+}.logoq{
+    width: 250px;
+}
+
+.logoq img{
+    height: 3.6rem;  
+    width: 100%;   
+}
+
+.menu {
+    display: flex;
+    background-color: none;
+}
+
+.hamb{
+    display: none;
+}

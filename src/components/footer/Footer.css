@@ -1,0 +1,65 @@
+
+.pie-pagina
+ { 
+    background-color: var(--negro); color: white; padding: 2%; margin-top: 14%; 
+}
+.pie-pagina .texto { display: flex; justify-content: space-around; font-size: 1.2em; align-items: baseline; height: 13rem; }
+.parrafo
+{
+      width: 25%;
+}
+.icons
+{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+}
+.icons div
+{
+      display:flex;
+      padding: 2%;
+}
+.politicas
+{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 2%;
+}
+
+.redes
+{
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      margin-top: 5%;
+}
+#direccionamiento1
+{
+      margin-left: 3%;
+}
+
+div#separador1 {
+      margin-top: 13%;
+  }
+
+  /*Resolución notebooks*/
+  @media screen and (min-width: 320px) and (max-width : 768px){
+      .pie-pagina .texto {
+            display: flex;
+            height: 40rem;
+            flex-flow: column;
+        }
+
+
+      .parrafo{
+            width: 107%;
+      }
+
+}
+
+
+
+
+

@@ -1,0 +1,20 @@
+#descripcion-all{
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.text-descripcion{
+    flex-basis: 70%;
+    
+}
+
+.img-descripcion-all{
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.img-descripcion-all img{
+    width: 50%;
+}
