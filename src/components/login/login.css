@@ -1,12 +1,12 @@
 
 
-.body {
+.body_login {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url(./wallhaven-nm9vkm_1280x720.png);
+  background-image: url(./wallhaven-nm.png);
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -1,12 +1,13 @@
 
 
 @media only screen and (min-width: 320px) {
-  .nav {
+  .nav1 {
     width: 30%;
     color: var(--blanco);
+    background-color: #0b3860 ;
   }
 
-  .nav .logo {
+  .nav1 .logo1 {
     background-color: #0b3860;
     background-image: url(./Group_200_login.svg);
     background-size: 100%;
@@ -18,62 +19,60 @@
     align-items: center;
   }
 
-  .logo .Imagen1 {
+  .logo1 .Imagen1 {
     width: 70%;
+    height: 100px;
     padding-top: 10%;
     padding-bottom: 20%;
   }
 
-  .usuario {
+  .usuario1 {
     display: none;
   }
 
-  .menu {
+  .menu1 {
     height: 73%;
+    background-color: #303342 ;
   }
 
-  .item {
+  .item1 {
     display: flex;
     flex-direction: column;
   }
 
-  .nav .menu .item div {
+  .nav1 .menu1 .item1 div {
     padding: 10px;
     font-size: 1.2em;
   }
 
-  .nav .menu .item div:hover {
+  .nav1 .menu1 .item1 div:hover {
     background-color: var(--azuloscuro);
   }
 
-  .nav .menu .item .color {
-    background-color: var(--azuloscuro);
-  }
-
-  .nav .menu .item div a {
+  .nav1 .menu1 .item1 div a {
     display: none;
   }
 
-  .nav .exit {
+  .nav1 .exit {
     padding: 1rem;
     font-size: 1.5rem;
     background-color: var(--negro2);
   }
 
-  .nav .exit a {
+  .nav1 .exit a {
     display: none;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .nav {
+  .nav1 {
     width: 17%;
     color: var(--blanco);
     position: fixed;
     height: 500px;
   }
 
-  .nav .logo {
+  .nav1 .logo1 {
     background-color: #0b3860;
     background-image: url(./Group_200_login.svg);
     background-size: 100%;
@@ -85,51 +84,51 @@
     align-items: center;
   }
 
-  .logo .Imagen1 {
+  .logo1 .Imagen1 {
     width: 70%;
     padding-top: 10%;
     padding-bottom: 20%;
   }
 
-  .usuario {
+  .usuario1 {
     display: flex;
     flex-direction: column;
     font-size: 0.8rem;
     padding-bottom: 10%;
   }
 
-  .menu {
+  .menu1 {
     height: 73%;
   }
 
-  .item {
+  .item1 {
     display: flex;
     flex-direction: column;
   }
 
-  .nav .menu .item div {
+  .nav1 .menu1 .item1 div {
     display: flex;
     flex-direction: row;
     padding: 1rem;
     font-size: 1.5rem;
   }
 
-  .nav .menu .item div:hover {
+  .nav1 .menu1 .item1 div:hover {
     background-color: var(--azuloscuro);
   }
 
-  .nav .menu .item .color {
+  .nav1 .menu1 .item1 .color {
     background-color: var(--azuloscuro);
   }
 
-  .nav .menu .item div a {
+  .nav1 .menu1 .item1 div a {
     display: flex;
     text-decoration: none;
     color: var(--blanco);
     padding-left: 1rem;
   }
 
-  .nav .exit {
+  .nav1 .exit1 {
     display: flex;
     flex-direction: row;
     padding: 1rem;
@@ -137,7 +136,7 @@
     background-color: var(--azulnegro);
   }
 
-  .nav .exit a {
+  .nav1 .exit1 a {
     display: flex;
     text-decoration: none;
     color: var(--blanco);

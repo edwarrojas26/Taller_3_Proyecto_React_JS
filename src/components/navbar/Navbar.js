@@ -1,18 +1,18 @@
 
 import logo from "./Hotelia horizontal blanco.svg"
 import "./navbar.css"
-function Navbar(){
+function Navbar(props){
     return(
-        <nav className="nav">
-        <div className="logo">
+    <nav className="nav1">
+        <div className="logo1">
             <img className="Imagen1" src={logo} alt="LogoHotelia" />
-            <div className="usuario">
-                <h3>Angie Vargas</h3>
-                <p>Angievargas2@gmail.com</p>
+            <div className="usuario1">
+                <h3>{props.nombre}</h3>
+                <p>{props.correo}</p>
             </div>
         </div>
-        <div className="menu">
-            <div className="item">
+        <div className="menu1">
+            <div className="item1">
                 <div><i className="fa-solid fa-bed"></i><a>Habitaciones</a></div>
                 <div><i className="fa-solid fa-bell-concierge"></i><a>Reservas</a></div>
                 <div><i className="fa-solid fa-bed"></i><a>Habitaciones</a></div>
@@ -20,7 +20,7 @@ function Navbar(){
             </div>
 
         </div>
-        <div className="exit">
+        <div className="exit1">
             <i className="fa-solid fa-right-from-bracket"></i><a>Cerrar sesión</a>
         </div>
     </nav>

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap&#39;);
+/* @import url(https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap&#39;);
 
 
 :root{
@@ -22,14 +22,13 @@
     box-sizing: border-box;
 }
 
-body{
+.body_dash{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-}
+    background-image: url(./wallhaven.png);
+} */
 
-
-
-/* @import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
   --azulclaro: #48d6ed;
@@ -51,8 +50,8 @@ body{
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  background-image: url(./wallhaven-k9r8xm_1280x720.png);
+.body_dash {
+  background-image: url(./wallhaven.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -118,4 +117,4 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
   }
-} */
+}

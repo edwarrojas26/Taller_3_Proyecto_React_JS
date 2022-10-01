@@ -4,7 +4,8 @@ import {Link} from 'react-router-dom';
 import "./login.css";
 function Login() {
   return (
-    <section className="body">
+    <body className="body_login">
+      <section>
       <div className="container-form">
         <div className="imagen-cont">
           <img className="imagen_blanca" src={logo1} />
@@ -29,6 +30,7 @@ function Login() {
         </p>
       </div>
       </section>
+    </body>
   );
 }
 
