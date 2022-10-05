@@ -3,16 +3,20 @@ import './map.css'
 
 function Map() {
     return(
-        <section id="ubicacion">
-        <div className="find">
-            <h1>Ubícanos</h1></div>
-                <div className="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1217.0042570013009!2d-74.07685339049154!3d4.600487973222492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a7147877c9%3A0x378b95e9cbda0740!2sCra.%208%20%2312a-42%2C%20Bogot%C3%A1!5e0!3m2!1sen!2sco!4v1658804876648!5m2!1sen!2sco" width="600" height="450"></iframe></div>
-                     <div className="inf"><h3>AVENIDA CARRERA 8. #12A-42, BOGOTÁ DC, COLOMBIA</h3>
-                            <div className="linea"></div>
-                                    <h3>+57 601 4567899</h3>
-                                        </div>
-        </section>
+    <div id="container-location">
+        <h2 className="location-tittle">Ubícanos</h2>
+
+        <iframe className="cont-maps"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2603.668779715141!2d-74.07073232748797!3d4.605737218435465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1658870245530!5m2!1ses!2sco"
+            width="800" height="600" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div className="location-zone">
+            <p>AVENIDA CARRERA 8, #12A-42, BOGOTA DC, COLOMBIA</p>
+            <hr className="split-line"/>
+            <p>+57 601 4567899</p>
+        </div>
+    </div>
 
     );
 }

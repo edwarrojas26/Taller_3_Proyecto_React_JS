@@ -7,7 +7,7 @@ import Dash from './pages/Dashboard.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import Dash from './components/formulario/Formulario';
 // import Registro from './components/register/Register';
-
+import NotFound from './pages/NotFound.js'
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +18,7 @@ root.render(
       <Route exact path='/Register' element={<Register/>}/>
       <Route exact path='/Login' element={<Login/>}/>
       <Route exact path='/Dash' element={<Dash/>}/>
+      <Route path = '*' element={<NotFound/>}/>
     </Routes>
   </BrowserRouter>
 

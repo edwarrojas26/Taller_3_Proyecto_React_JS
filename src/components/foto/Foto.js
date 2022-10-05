@@ -9,7 +9,7 @@ function Foto(props) {
       <div className="icon2">
         <i className="fa-solid fa-file-export"></i>
       </div>
-      <div className="icon">
+      <div className="icon1">
         <i className="fa-solid fa-file-arrow-up"></i>
         <i className="fa-solid fa-upload"></i>
       </div>

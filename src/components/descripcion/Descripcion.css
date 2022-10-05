@@ -1,20 +1,32 @@
-#descripcion-all{
+.information-section {
     display: flex;
-    padding: 5rem;
-    align-items: center;
-    justify-content:space-between;
-}
+  }
 
-.text-descripcion{
-    flex-basis: 70%;
+  .information-zone {
+    padding: 1em;
+  }
+
+  .information-image img {
+    display: none;
+  }
+  @media screen and (min-width: 1024px) {
+    #information-section {
+        display: flex;
+        padding: 2em;
+        justify-content: center;
+        align-items: center;
+      }
     
-}
-
-.img-descripcion-all{
-    flex-basis: 30%;
-    text-align: center;
-}
-
-.img-descripcion-all img{
-    width: 50%;
-}
+      .information-zone {
+        width: 36em;
+        align-self: center;
+        font-size: 1.5em;
+      }
+    
+      .information-image img {
+        display: flex;
+        align-items: center;
+        width: 240px;
+        height: 240px;
+      }
+  }

@@ -1,15 +1,49 @@
-#banner{
-    background-image: url("slide1.jpg");
-    height: 500px;
-    background-size: cover;
+#fondo {
     display: flex;
     align-items: flex-end;
-}
+    background-image: url(./slide1.jpg);
+    background-size: cover;
+    color: white;
+    padding-top: 1rem;
+    height: 10em;
+    width: auto;
+  }
 
-#banner h4{
-    color: var(--blanco);
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 55%;
-    padding: 1rem;
-    font-size: 2rem;
-}
+  .fondo-title {
+    padding: 2%;
+    font-family: marcellus;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.0001)
+    );
+  }
+  @media screen and (min-width: 1024px) {
+
+  #fondo {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(./slide1.jpg);
+    background-size: cover;
+    color: white;
+    padding-top: 1rem;
+    height: 38em;
+    width: auto;
+  }
+
+  .fondo-title {
+    padding: 2%;
+    font-family: marcellus;
+    text-align: left;
+    font-size: 50px;
+
+    width: 100%;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.0001)
+    );
+  }}

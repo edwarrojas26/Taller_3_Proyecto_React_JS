@@ -1,65 +1,146 @@
-
-.pie-pagina
- { 
-    background-color: var(--negro); color: white; padding: 2%; margin-top: 14%; 
-}
-.pie-pagina .texto { display: flex; justify-content: space-around; font-size: 1.2em; align-items: baseline; height: 13rem; }
-.parrafo
-{
-      width: 25%;
-}
-.icons
-{
+.icon {
+      padding: 1%;
+      font-size: 150%;
+    }
+  
+    .icon-color {
+      color: var(--Magenta);
+      font-size: 150%;
+      padding: 1%;
+    }
+  
+    .lines {
+      cursor: pointer;
+      height: 10px;
+      width: 55px;
+      margin: 0 2px;
+      background-color: var(--negro2);
+      display: inline-block;
+      transition: 0.6s ease;
+      border-radius: 1px;
+    }
+  
+    .footer-section {
       display: flex;
-      flex-wrap: nowrap;
+      margin-top: 2em;
+      background-color: var(--negro2);
+      align-items: center;
       flex-direction: column;
-}
-.icons div
-{
-      display:flex;
-      padding: 2%;
-}
-.politicas
-{
+      width: auto;
+      height: 20%;
+      padding: 15px;
+      font-family: "Marcellus", serif;
+    }
+  
+    .footer-section section {
+      width: 100%;
+      color: var(--blanco);
+      padding: 0 10px;
+    }
+  
+    .split-lines {
+      width: 380px;
+      left: 0;
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      padding: 2%;
-}
-
-.redes
-{
+      border-color: var(--blanco);
+      background-color: var(--blanco);
+    }
+  
+    .icons_mobile {
       display: flex;
+    }
+  
+    .icons_mobile i {
+      padding: 1em;
+      font-size: 150%;
+    }
+  
+    .icons {
+      display: none;
+    }
+  
+    .footer-section section p {
+      padding: 1em;
+      font-size: 120%;
+    }
+    .footer-direction {
+      padding: 1em;
+      font-size: 120%;
+    }
+  
+    .footer-cellphone {
+      padding: 1em;
+      font-size: 120%;
+    }
+  
+    .footer-policies {
+      display: flex;
+      padding: 1em;
+      flex-direction: row;
       justify-content: space-between;
-      width: 30%;
-      margin-top: 5%;
-}
-#direccionamiento1
-{
-      margin-left: 3%;
-}
+      align-items: center;
+    }
+  
 
-div#separador1 {
-      margin-top: 13%;
-  }
 
-  /*Resolución notebooks*/
-  @media screen and (min-width: 320px) and (max-width : 768px){
-      .pie-pagina .texto {
+    @media screen and (min-width: 1024px) {
+
+      .icon {
+            padding: 1%;
+            font-size: 150%;
+          }
+        
+          .icon-color {
+            color: var(--Magenta);
+            font-size: 150%;
+            padding: 1%;
+          }
+        
+          .footer-section {
             display: flex;
-            height: 40rem;
-            flex-flow: column;
+            margin-top: 2em;
+            background-color: var(--negro2);
+            justify-content: space-around;
+            align-items: baseline;
+            flex-direction: row;
+            width: auto;
+            height: auto;
+            padding: 20px;
+          }
+        
+          .footer-section section {
+            width: 50%;
+            color: var(--blanco);
+            justify-content: space-around;
+          }
+        
+          .split-lines {
+            display: none;
+          }
+        
+          .icons {
+            display: flex;
+          }
+        
+          .icons i {
+            padding: 1em;
+            font-size: 150%;
+          }
+        
+          .icons_mobile {
+            display: none;
+          }
+          .footer-direction {
+            display: flex;
+            flex-direction: row;
+            padding: 1em 0;
+          }
+        
+          .footer-policies {
+            /* padding: 1em; */
+            justify-content: flex-end;
+            flex-direction: column;
+          }
         }
-
-
-      .parrafo{
-            width: 107%;
-      }
-
-}
-
-
-
-
-
+        
+    

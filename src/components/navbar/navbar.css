@@ -1,15 +1,10 @@
 
 
 @media only screen and (min-width: 320px) {
-  .nav1 {
-    width: 30%;
-    color: var(--blanco);
-    background-color: #0b3860 ;
-  }
-
+  .nav1 { width: 21%; color: var(--blanco); background-color: #0b3860; height: 131%; position: fixed; }
+  .exit1 { /* height: 93%; */ margin-top: -212%; }
   .nav1 .logo1 {
     background-color: #0b3860;
-    background-image: url(./Group_200_login.svg);
     background-size: 100%;
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -66,7 +61,7 @@
 
 @media screen and (min-width: 1024px) {
   .nav1 {
-    width: 17%;
+    width: 20%;
     color: var(--blanco);
     position: fixed;
     height: 500px;
@@ -74,7 +69,6 @@
 
   .nav1 .logo1 {
     background-color: #0b3860;
-    background-image: url(./Group_200_login.svg);
     background-size: 100%;
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -132,9 +126,10 @@
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
+    margin-top: -1%;
     background-color: var(--azulnegro);
-  }
+}
 
   .nav1 .exit1 a {
     display: flex;

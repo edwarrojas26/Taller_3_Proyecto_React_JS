@@ -19,7 +19,7 @@ function Dashboard() {
         <div className="info">
           <Foto 
           titulo="Cambiar contraseña"
-          img="https://marketing4ecommerce.net/wp-content/uploads/2019/09/nueva-portada-enero-16.jpg" />
+          img="https://marketing4ecommerce.net/wp-content/uploads/2019/09/nueva-portada-enero-16.jpg"  />
   
           <Form />
         </div>

@@ -1,10 +1,9 @@
 import "./Banner.css";
 function Banner(){
     return(
-        <section id="banner">
-            <h4>Lorem ipsum dolor sit ameliter,<br/>
-            consectetur adipiscing elit</h4>
-        </section>
+        <div id="fondo">
+        <h1 className="fondo-title">Lorem ipsum dolor sit ametelier,consectetur adipisicing elit.</h1>
+    </div>
     );
 }
 
