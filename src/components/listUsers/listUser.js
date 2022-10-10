@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect ,useState} from "react";
-import './listUser.css'
+import './listUser.css';
+import { Link } from 'react-router-dom';
 
 function ListarUser() {
 
@@ -36,6 +37,7 @@ function ListarUser() {
                     <th >Correo</th>
                     <th >Pais de origen</th>
                     <th >tipo usuario</th>
+                    <th >Actualizar</th>
                 </tr>
                 {list.map((lis,index)=>(
                     <tr>
@@ -48,6 +50,7 @@ function ListarUser() {
                         <td>{lis.telefono}</td>
                         <td>{lis.paisorigen}</td>
                         <td>{lis.tipouser}</td>
+                        <td><Link to="/Update"><button type="submit" value={lis._id}>Actualizar</button></Link></td>
                     </tr>
 
                     

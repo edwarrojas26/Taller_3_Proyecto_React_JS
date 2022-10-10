@@ -5,6 +5,7 @@ import Register from './pages/Register.js';
 import Login from './pages/Login.js';
 import Dash from './pages/Dashboard.js';
 import User from './pages/listUsers';
+import UU from './pages/Uuser.js'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NotFound from './pages/NotFound.js'
 import './index.css';
@@ -18,6 +19,7 @@ root.render(
       <Route exact path='/Login' element={<Login/>}/>
       <Route exact path='/Dash' element={<Dash/>}/>
       <Route path="/Usuario" element={<User/>}/>
+      <Route path="/Update" element={<UU/>}/>
       <Route path = '*' element={<NotFound/>}/>
     </Routes>
   </BrowserRouter>

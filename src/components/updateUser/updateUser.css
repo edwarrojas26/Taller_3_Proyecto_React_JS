@@ -1,0 +1,271 @@
+
+#roomUPDATE{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 987px;
+    background-image: url(./vista.png);
+    background-repeat: no-repeat;
+    
+}
+
+#espacioUPDATE{
+    position: absolute;
+    background: rgb(51,122,183);
+    background: linear-gradient(90deg, rgba(51,122,183,0.5239670868347339) 1%, rgba(11,56,96,0.5239670868347339) 100%);
+    backdrop-filter: blur(5px);
+    color: var(--blanco);
+    width: 35%;
+    height: 100%;
+}
+
+
+.descripcionUPDATE {
+    display: flex;
+    font-family: 'Marcellus', serif;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 2.7rem;
+}
+
+.imgUPDATE{
+    margin-top: 43%;
+}
+
+.imgUPDATE.img-registerUPDATE {
+    margin-top: 30%;
+}
+
+.registrateUPDATE{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.4687850140056023) 1%, rgba(255,255,255,0.6108018207282913) 100%);
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 57%;
+    height: 92%;
+    margin-left: 41%;
+    border-radius: 8px;
+    padding: 0.rem;
+}
+
+.descripcion-registerUPDATE{
+    display: flex;
+    font-family: 'Marcellus', serif;
+    justify-content: center;
+    margin-top: 6%;
+    font-size: 2.7rem;
+}
+
+
+#documentoUPDATE {
+    display: flex;
+    align-items: flex-end;
+    width: 43%;
+    margin-left: 3%;
+    height: -56%;
+    padding: 0.5rem;
+}
+
+.tipoUPDATE{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2%;
+    text-align: start;
+    margin-left: 3%;
+    margin-bottom: 1.5%;
+    font-size: 1.2rem;
+}
+
+
+#izquierdaUPDATE{
+    display: flex;
+    align-items: flex-end;
+    width: 42%;
+    margin-left: 3%;
+    padding: 0.7rem;
+    
+}
+
+
+.derechaUPDATE{
+    margin-left: 54%;
+    width: 83%;
+    margin-top: -9%;
+}
+
+
+.labelUPDATE {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+.opcionesUPDATE{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 4rem;
+    margin-right: -34%;
+    margin-bottom: 58%;
+    margin-top: -6%;
+}
+
+#opciones-inputUPDATE{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0.7rem;
+}
+
+.opcionesUPDATE p {
+    margin-right: 18%;
+}
+
+.derecha-telefonoUPDATE{
+    margin-left: 54%;
+    width: 83%;
+    margin-top: -9%;
+}
+
+.email-eUPDATE{
+    margin-top: -56%;
+}
+
+.inputUPDATE[type=file]{
+    color: transparent;
+    margin-right: 51%;
+    width: 43%;
+  }
+
+.aUPDATE{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.botonUPDATE{
+    padding: 1px auto;
+    
+}
+
+.boton1UPDATE {
+    background-color: var(--azulnegro);
+    font-family: 'Marcellus', serif;
+    padding: 1.2rem;
+    font-size: 1.3rem;
+    /* width: 29%; */
+    color: white;
+    /* border-color: var(--azulnegro); */
+    width: 20%;
+}
+
+.rrUPDATE {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    text-decoration: black;
+}
+@media screen and (min-width : 320px) and (max-width : 768px){
+
+    .boton1UPDATE{
+        padding: 1rem;
+    }
+
+    #espacioUPDATE{
+    width: 101%;
+    height: 14%;
+    margin-top: 2%;
+    }
+
+    .imgUPDATE {
+        margin-top: 4%;
+        width: 52%;
+    }
+    .descripcionUPDATE {
+        visibility: hidden;
+        margin-left: -75%;
+        text-align: center;
+        margin-right: -180%;
+    }
+
+    .descripcionUPDATE:before{
+        content: "Un lugar en tu corazon";
+        visibility: visible;
+        font-size: 2rem;
+        
+    }
+
+    .registrateUPDATE {
+        margin-top: 41%;
+    width: 96%;
+    margin-left: 3%;
+}
+    *{
+        overflow: visible;
+    }
+
+    .tipoUPDATE {
+        font-size: 1.2rem;
+    }
+ 
+    #opciones-inputUPDATE {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0.7rem;
+    }
+
+    .selectUPDATE#documentoUPDATE {
+        width: 91%;
+    }
+
+    .inputUPDATE#izquierdaUPDATE {
+        width: 67%;
+    }
+
+    .opcionesUPDATE {
+        margin-left: -63%;
+        margin-top: 2%;
+    }
+    
+    .input#archivoUPDATE {
+        margin-left: 3%;
+    }
+
+    .derecha-telefono{
+        margin-left: 0%;
+    margin-top: 0%;
+    }
+
+    .derechaUPDATE {
+        width: 131%;
+        margin-left: -1%;
+        margin-top: 4%;
+    }
+
+    .botonUPDATE {
+        margin-top: 2%;
+    }
+
+    input#izquierdaUPDATE {
+        width: 70%;
+    }
+
+    #roomUPDATE {
+        height: 0%;
+    }
+}
+
+    @media screen and (min-width: 768px) and (max-width: 1100px){
+
+        .a.boton1UPDATE {
+            padding: 0.8rem;
+        }
+
+        .derechaUPDATE {
+            margin-top: -13%;
+        }
+
+        .div#espacioUPDATE {
+            height: 97%;
+        }
+        
+        .registrateUPDATE {
+            height: 89%;
+        }
+        
+    }
