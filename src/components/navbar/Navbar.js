@@ -1,6 +1,7 @@
 
 import logo from "./Hotelia horizontal blanco.svg"
 import "./navbar.css"
+import {Link} from 'react-router-dom';
 function Navbar(props){
     return(
     <div className="nav1">
@@ -21,10 +22,10 @@ function Navbar(props){
 
         </div>
         <div className="exit1">
-            <i className="fa-solid fa-right-from-bracket"></i><a>Cerrar sesión</a>
+            <Link to="../Login"><i className="fa-solid fa-right-from-bracket"></i>Cerrar sesión</Link>
         </div>
     </div>
-
+ 
      
     )
 }

@@ -5,7 +5,7 @@ import svgImage from './Hotelia horizontal blanco.svg'
 import {Link} from 'react-router-dom';
 function Nav() {
     return(
-<nav>
+<nav> 
         <div className="logo">
             <img src={svgImage}/>
             <label for="menu"><i className="fa-solid fa-bars"></i></label>

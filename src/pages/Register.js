@@ -1,4 +1,4 @@
-import Register from '../components/register/Register.js';
+import Register from '../components/register/Register';
 
 function indexPages() {
     return (
